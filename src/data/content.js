@@ -37,6 +37,8 @@ export const SHARED_BOOTH = [
   { name: 'Stefano Noferini', from: 'IT' },
   { name: 'Hector Couto', from: 'ES' },
   { name: 'Miguel Bastida', from: 'ES' },
+  { name: 'Cuartero', from: 'ES' },
+  { name: 'Latmun', from: 'UK' },
   { name: 'Lexlay', from: 'AR' },
 ];
 
