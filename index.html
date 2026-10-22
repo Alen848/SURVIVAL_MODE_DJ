@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>SURVIVAL MODE — DJ & Productor · Minimal Deep Tech · Press Kit</title>
+  <meta name="description" content="SURVIVAL MODE — DJ y productor de Mar del Plata, Argentina. Minimal Deep Tech y Tech House. Lanzamientos en Be One Records, Happy Techno, Gritty, Short Circuit. Fundador de KOOK Label. Booking & press kit." />
+  <meta name="theme-color" content="#070707" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="SURVIVAL MODE — Press Kit" />
+  <meta property="og:description" content="Minimal Deep Tech · Tech House — Mar del Plata, AR. Founder of KOOK Label." />
+  <meta property="og:image" content="/og.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@300;500;700;900&family=JetBrains+Mono:wght@400;500;700&family=Inter+Tight:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="/media/video/hero.jpg" />
+</head>
+<body class="is-loading">
+  <!-- ═════════ BOOT ═════════ -->
+  <div class="boot" aria-hidden="true">
+    <div class="boot__grid"></div>
+    <div class="boot__term">
+      <p class="boot__line" data-boot>&gt; INIT SURVIVAL_MODE.SYS</p>
+      <p class="boot__line" data-boot>&gt; LOADING GROOVE ENGINE <span>········ OK</span></p>
+      <p class="boot__line" data-boot>&gt; BPM LOCK <span>129.00</span></p>
+      <p class="boot__line" data-boot>&gt; SIGNAL 38°00′S 57°33′W <span>MDQ / AR</span></p>
+    </div>
+    <div class="boot__logo"><div class="logo-svg" data-logo></div></div>
+    <div class="boot__count"><span data-boot-count>000</span><small>%</small></div>
+    <div class="boot__bar"><i data-boot-bar></i></div>
+    <div class="boot__shutter boot__shutter--top"></div>
+    <div class="boot__shutter boot__shutter--bottom"></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><div class="cursor__dot"></div><div class="cursor__ring"><span class="cursor__label"></span></div></div>
+  <canvas class="grain" aria-hidden="true"></canvas>
+
+  <!-- ═════════ NAV ═════════ -->
+  <header class="nav">
+    <a href="#top" class="nav__logo" aria-label="Survival Mode — inicio"><span class="logo-svg" data-logo></span></a>
+    <nav class="nav__links" aria-label="Secciones">
+      <a href="#bio" data-i18n="nav.bio">Bio</a>
+      <a href="#music" data-i18n="nav.music">Música</a>
+      <a href="#live" data-i18n="nav.live">En vivo</a>
+      <a href="#map" data-i18n="nav.tour">Escenarios</a>
+      <a href="#kook">KOOK</a>
+      <a href="#gallery" data-i18n="nav.gallery">Galería</a>
+      <a href="#rider">Rider</a>
+    </nav>
+    <div class="nav__right">
+      <button class="nav__lang" type="button" data-lang-toggle aria-label="Cambiar idioma"><span data-lang="es">ES</span><i>/</i><span data-lang="en">EN</span></button>
+      <a href="#booking" class="btn btn--flare nav__cta" data-magnetic><span data-i18n="nav.booking">Booking</span></a>
+      <button class="nav__burger" type="button" aria-label="Menú" data-menu-toggle><i></i><i></i></button>
+    </div>
+  </header>
+
+  <div class="menu" data-menu>
+    <nav class="menu__links">
+      <a href="#bio"><small>01</small><span data-i18n="nav.bio">Bio</span></a>
+      <a href="#music"><small>02</small><span data-i18n="nav.music">Música</span></a>
+      <a href="#live"><small>03</small><span data-i18n="nav.live">En vivo</span></a>
+      <a href="#map"><small>04</small><span data-i18n="nav.tour">Escenarios</span></a>
+      <a href="#kook"><small>05</small><span>KOOK</span></a>
+      <a href="#gallery"><small>06</small><span data-i18n="nav.gallery">Galería</span></a>
+      <a href="#rider"><small>07</small><span>Rider</span></a>
+      <a href="#booking"><small>08</small><span data-i18n="nav.booking">Booking</span></a>
+    </nav>
+  </div>
+
+  <!-- side HUD -->
+  <aside class="hud-side" aria-hidden="true">
+    <span class="hud-side__num" data-hud-num>00</span>
+    <span class="hud-side__track"><i data-hud-progress></i></span>
+    <span class="hud-side__name" data-hud-name>SYSTEM</span>
+  </aside>
+
+  <main id="smooth">
+    <!-- ═════════ HERO ═════════ -->
+    <section class="hero" id="top" data-section="SYSTEM">
+      <div class="hero__media">
+        <video class="hero__video" data-hero-video muted loop playsinline preload="auto" poster="/media/video/hero.jpg">
+          <source src="/media/video/hero-mobile.mp4" type="video/mp4" media="(max-width: 700px)" />
+          <source src="/media/video/hero.mp4" type="video/mp4" />
+        </video>
+        <div class="hero__tint"></div>
+        <div class="hero__scan"></div>
+      </div>
+
+      <div class="hero__hud">
+        <div class="hud hud--tl"><span>SURVIVAL_MODE</span><span>// <b class="blink">●</b> <span data-i18n="hero.status">SISTEMA ACTIVO</span></span></div>
+        <div class="hud hud--tr"><span>38°00′S · 57°33′W</span><span>MAR DEL PLATA · AR · <b data-clock>00:00:00</b></span></div>
+        <div class="hud hud--bl"><span data-i18n="hero.genre">MINIMAL DEEP TECH · TECH HOUSE</span><span>BPM <b data-bpm>129</b></span></div>
+        <div class="hud hud--br"><span data-i18n="hero.scroll">SCROLL PARA ENTRAR</span><span class="hud__arrow">↓</span></div>
+        <i class="corner corner--tl"></i><i class="corner corner--tr"></i><i class="corner corner--bl"></i><i class="corner corner--br"></i>
+        <div class="crosshair"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__kicker"><span class="tag">DJ</span><span class="tag">PRODUCER</span><span class="tag tag--flare">FOUNDER · KOOK LABEL</span></p>
+        <h1 class="hero__title"><span class="visually-hidden">Survival Mode</span><span class="logo-svg hero__logo" data-logo data-hero-logo></span></h1>
+        <div class="hero__wave" aria-hidden="true"><canvas data-wave></canvas></div>
+      </div>
+    </section>
+
+    <!-- ═════════ LABELS TICKER ═════════ -->
+    <section class="ticker" aria-label="Sellos">
+      <div class="ticker__label" data-i18n="ticker.label">FIRMADO EN</div>
+      <div class="ticker__track" data-ticker></div>
+    </section>
+
+    <!-- ═════════ BIO ═════════ -->
+    <section class="section bio" id="bio" data-section="BIO">
+      <div class="section__head">
+        <span class="eyebrow"><b>01</b> / <span data-i18n="bio.eyebrow">PROTOCOLO</span></span>
+        <h2 class="display" data-split><span data-i18n="bio.title">Sobre el artista</span></h2>
+      </div>
+
+      <div class="bio__grid">
+        <figure class="bio__portrait" data-portrait>
+          <div class="frame">
+            <picture>
+              <img src="/media/img/street-graffiti-1280.webp" srcset="/media/img/street-graffiti-640.webp 640w, /media/img/street-graffiti-1280.webp 1280w, /media/img/street-graffiti-2000.webp 2000w" sizes="(max-width: 900px) 100vw, 45vw" alt="Survival Mode frente a un mural de grafiti en Mar del Plata" loading="lazy" />
+            </picture>
+            <i class="frame__scan"></i>
+          </div>
+          <figcaption class="frame__meta"><span>IMG_0082 · MDQ</span><span>REC ● 2025</span></figcaption>
+        </figure>
+
+        <div class="bio__text">
+          <p class="statement" data-statement data-i18n="bio.statement">Grooves intensos e hipnóticos. Percusión orgánica, vocales procesadas y una estética profunda entre el Minimal Deep Tech y el Tech House.</p>
+          <div class="bio__body">
+            <p data-i18n="bio.p1">SURVIVAL MODE es un DJ y productor de Mar del Plata, Argentina. Desde sus inicios captó la atención de sellos internacionales de gran prestigio, firmando música en Be One Records (ES), Happy Techno (ES), Gritty (UK), Short Circuit (UK), Omeric Riddms (BR), Ohana (ES) y Not For Me (ES), consolidando su presencia en la escena global.</p>
+            <p data-i18n="bio.p2">En su ciudad natal se presentó en los clubes más importantes —Sonora Park, Bruto, Only Normandina, Mr. Jones, GAP, Quba y La Caseta— y en los últimos años expandió su sonido «KOOK» por todo el país: Buenos Aires, Córdoba, Rosario, Entre Ríos, Neuquén, Bahía Blanca y La Plata, entre otras.</p>
+            <p data-i18n="bio.p3">Hoy está enfocado en el desarrollo de su sello, KOOK Label, que cuenta con el apoyo de DJs y productores de todo el mundo y posiciona su sonido minimal como uno de los referentes de Argentina.</p>
+          </div>
+          <dl class="stats" data-stats></dl>
+        </div>
+      </div>
+
+      <div class="booth">
+        <div class="booth__head">
+          <span class="eyebrow"><b>01.1</b> / <span data-i18n="booth.eyebrow">CABINA COMPARTIDA CON</span></span>
+        </div>
+        <ul class="booth__list" data-booth></ul>
+      </div>
+    </section>
+
+    <!-- ═════════ MUSIC ═════════ -->
+    <section class="section music" id="music" data-section="MUSIC">
+      <div class="section__head section__head--row">
+        <div>
+          <span class="eyebrow"><b>02</b> / <span data-i18n="music.eyebrow">DISCOGRAFÍA</span></span>
+          <h2 class="display" data-split><span data-i18n="music.title">Lanzamientos</span></h2>
+        </div>
+        <p class="section__lede" data-i18n="music.lede">Más de 60 lanzamientos desde 2020 en más de 20 sellos de Europa, Reino Unido, Estados Unidos y Latinoamérica. Varias referencias en la lista HYPE de Beatport.</p>
+      </div>
+
+      <div class="releases" data-releases-pin>
+        <div class="releases__track" data-releases></div>
+        <div class="releases__progress"><i data-releases-progress></i></div>
+      </div>
+
+      <div class="sets">
+        <div class="sets__head">
+          <span class="eyebrow"><b>02.1</b> / <span data-i18n="sets.eyebrow">SETS GRABADOS</span></span>
+          <a class="link-arrow" data-link="soundcloud" target="_blank" rel="noopener"><span data-i18n="sets.all">Todo en SoundCloud</span> ↗</a>
+        </div>
+        <div class="sets__list" data-sets></div>
+      </div>
+    </section>
+
+    <!-- ═════════ LIVE ═════════ -->
+    <section class="section live" id="live" data-section="LIVE">
+      <div class="section__head section__head--row">
+        <div>
+          <span class="eyebrow"><b>03</b> / <span data-i18n="live.eyebrow">REGISTROS DE CAMPO</span></span>
+          <h2 class="display" data-split><span data-i18n="live.title">Desde la cabina</span></h2>
+        </div>
+        <p class="section__lede" data-i18n="live.lede">Fragmentos reales de sus sets. Tocá un video para activar el sonido.</p>
+      </div>
+      <div class="reels" data-reels></div>
+    </section>
+
+    <!-- ═════════ MAP / VENUES ═════════ -->
+    <section class="section map" id="map" data-section="RADAR">
+      <div class="section__head">
+        <span class="eyebrow"><b>04</b> / <span data-i18n="map.eyebrow">ESCENARIOS & CIUDADES</span></span>
+        <h2 class="display" data-split><span data-i18n="map.title">Radar de señal</span></h2>
+      </div>
+      <div class="map__grid">
+        <div class="radar" data-radar>
+          <svg viewBox="-500 -500 1000 1000" aria-label="Ciudades donde se presentó, relativas a Mar del Plata">
+            <g class="radar__rings"></g>
+            <g class="radar__axes"></g>
+            <g class="radar__blips"></g>
+          </svg>
+          <div class="radar__sweep" data-sweep></div>
+          <div class="radar__center"><span>MDQ</span></div>
+          <div class="radar__readout"><span data-i18n="map.readout">CIUDADES DETECTADAS</span><b data-radar-count>0</b></div>
+        </div>
+        <ol class="cities" data-cities></ol>
+      </div>
+      <div class="venues" aria-label="Clubes y festivales">
+        <div class="venues__row" data-venues="1"></div>
+        <div class="venues__row venues__row--rev" data-venues="2"></div>
+      </div>
+    </section>
+
+    <!-- ═════════ KOOK ═════════ -->
+    <section class="section kook" id="kook" data-section="KOOK">
+      <div class="kook__bg" aria-hidden="true"><img src="/media/img/kook-white.png" alt="" /></div>
+      <div class="kook__grid">
+        <div>
+          <span class="eyebrow eyebrow--gold"><b>05</b> / <span data-i18n="kook.eyebrow">SELLO DISCOGRÁFICO</span></span>
+          <img class="kook__logo" src="/media/img/kook-white.png" alt="KOOK Label" data-kook-logo />
+          <p class="kook__tag" data-i18n="kook.tag">Argentina Top Label · Minimal / Deep Tech</p>
+        </div>
+        <div class="kook__text">
+          <p class="statement statement--small" data-i18n="kook.p1">KOOK es el sello fundado y dirigido por SURVIVAL MODE: una plataforma para el groove minimal argentino con soporte de DJs y productores de todo el mundo.</p>
+          <p data-i18n="kook.p2">Compilados como «Mar Del Plata Music Week», «Amsterdam Dance Event 2024», «Hot Bombs» y «Summer Cutz» llevaron el sonido de la costa argentina a las pistas del circuito internacional, junto a artistas de Alemania, Brasil, Reino Unido e Italia.</p>
+          <div class="kook__links" data-kook-links></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ GALLERY ═════════ -->
+    <section class="section gallery" id="gallery" data-section="GALLERY">
+      <div class="section__head section__head--row">
+        <div>
+          <span class="eyebrow"><b>06</b> / <span data-i18n="gallery.eyebrow">ARCHIVO VISUAL</span></span>
+          <h2 class="display" data-split><span data-i18n="gallery.title">Galería</span></h2>
+        </div>
+        <div class="gallery__actions">
+          <div class="tabs" role="tablist">
+            <button role="tab" class="tab is-active" data-gallery-tab="press" aria-selected="true" data-i18n="gallery.press">Prensa</button>
+            <button role="tab" class="tab" data-gallery-tab="live" aria-selected="false" data-i18n="gallery.live">En vivo</button>
+          </div>
+          <a class="btn btn--flare" data-link="pressPack" download data-magnetic><span data-i18n="gallery.download">Descargar pack de prensa</span> <i>↓</i></a>
+        </div>
+      </div>
+      <div class="masonry" data-gallery></div>
+    </section>
+
+    <!-- ═════════ RIDER ═════════ -->
+    <section class="section rider" id="rider" data-section="RIDER">
+      <div class="section__head section__head--row">
+        <div>
+          <span class="eyebrow"><b>07</b> / <span data-i18n="rider.eyebrow">REQUERIMIENTOS TÉCNICOS</span></span>
+          <h2 class="display" data-split><span>Rider</span></h2>
+        </div>
+        <p class="section__lede" data-i18n="rider.lede">Setup estándar de club. Cualquier variación, consultar con management antes del evento.</p>
+      </div>
+      <div class="rider__stage" data-rider-stage>
+        <svg viewBox="0 0 1200 420" class="rider__svg" aria-hidden="true">
+          <g class="draw">
+            <rect x="40" y="70" width="230" height="290" rx="14" />
+            <circle cx="155" cy="250" r="78" /><circle cx="155" cy="250" r="22" /><rect x="80" y="100" width="150" height="70" rx="6" />
+            <rect x="300" y="70" width="230" height="290" rx="14" />
+            <circle cx="415" cy="250" r="78" /><circle cx="415" cy="250" r="22" /><rect x="340" y="100" width="150" height="70" rx="6" />
+            <rect x="560" y="50" width="240" height="330" rx="14" />
+            <circle cx="605" cy="95" r="14" /><circle cx="650" cy="95" r="14" /><circle cx="710" cy="95" r="14" /><circle cx="755" cy="95" r="14" />
+            <circle cx="605" cy="145" r="12" /><circle cx="650" cy="145" r="12" /><circle cx="710" cy="145" r="12" /><circle cx="755" cy="145" r="12" />
+            <circle cx="605" cy="190" r="12" /><circle cx="650" cy="190" r="12" /><circle cx="710" cy="190" r="12" /><circle cx="755" cy="190" r="12" />
+            <line x1="605" y1="235" x2="605" y2="330" /><line x1="650" y1="235" x2="650" y2="330" /><line x1="710" y1="235" x2="710" y2="330" /><line x1="755" y1="235" x2="755" y2="330" />
+            <line x1="625" y1="355" x2="735" y2="355" />
+            <rect x="830" y="70" width="230" height="290" rx="14" />
+            <circle cx="945" cy="250" r="78" /><circle cx="945" cy="250" r="22" /><rect x="870" y="100" width="150" height="70" rx="6" />
+            <rect x="1090" y="60" width="80" height="140" rx="8" /><circle cx="1130" cy="150" r="26" /><circle cx="1130" cy="90" r="10" />
+            <rect x="1090" y="220" width="80" height="140" rx="8" /><circle cx="1130" cy="310" r="26" /><circle cx="1130" cy="250" r="10" />
+          </g>
+          <g class="rider__faders"><rect x="597" y="300" width="16" height="10" rx="2" /><rect x="642" y="260" width="16" height="10" rx="2" /><rect x="702" y="280" width="16" height="10" rx="2" /><rect x="747" y="250" width="16" height="10" rx="2" /><rect x="672" y="349" width="16" height="12" rx="2" class="xfader" /></g>
+          <g class="rider__platters"><line x1="155" y1="250" x2="155" y2="176" /><line x1="415" y1="250" x2="415" y2="176" /><line x1="945" y1="250" x2="945" y2="176" /></g>
+        </svg>
+      </div>
+      <ul class="rider__list" data-rider></ul>
+    </section>
+
+    <!-- ═════════ BOOKING ═════════ -->
+    <section class="section booking" id="booking" data-section="BOOKING">
+      <div class="booking__grid">
+        <div class="booking__left">
+          <span class="eyebrow"><b>08</b> / <span data-i18n="booking.eyebrow">CONTACTO</span></span>
+          <h2 class="display display--xl" data-split><span data-i18n="booking.title">Booking</span></h2>
+          <p class="section__lede" data-i18n="booking.lede">Clubes, festivales, open airs y eventos privados — Argentina & internacional.</p>
+          <a class="booking__mail" data-link="email" data-magnetic data-cursor="COPY"><span data-email-text></span></a>
+          <div class="booking__row">
+            <button class="btn btn--line" type="button" data-copy-email><span data-i18n="booking.copy">Copiar email</span></button>
+            <div class="socials" data-socials></div>
+          </div>
+        </div>
+
+        <form class="form" data-booking-form novalidate>
+          <div class="form__head"><span>&gt; BOOKING_REQUEST.FORM</span><span class="blink">●</span></div>
+          <div class="form__row">
+            <label><span data-i18n="form.name">Nombre / Productora</span><input name="name" required autocomplete="organization" /></label>
+            <label><span data-i18n="form.email">Email</span><input name="email" type="email" required autocomplete="email" /></label>
+          </div>
+          <div class="form__row">
+            <label><span data-i18n="form.date">Fecha del evento</span><input name="date" type="date" /></label>
+            <label><span data-i18n="form.city">Ciudad / Venue</span><input name="city" /></label>
+          </div>
+          <fieldset class="form__chips">
+            <legend data-i18n="form.type">Tipo de evento</legend>
+            <label><input type="radio" name="type" value="Club" checked /><span>Club</span></label>
+            <label><input type="radio" name="type" value="Festival" /><span>Festival</span></label>
+            <label><input type="radio" name="type" value="Open air" /><span>Open air</span></label>
+            <label><input type="radio" name="type" value="Private" /><span data-i18n="form.private">Privado</span></label>
+          </fieldset>
+          <label><span data-i18n="form.msg">Contanos sobre el evento</span><textarea name="msg" rows="4" data-i18n-ph="form.msgPh" placeholder="Capacidad, horario del set, line-up…"></textarea></label>
+          <button class="btn btn--flare btn--block" type="submit" data-magnetic><span data-i18n="form.send">Enviar solicitud</span> <i>→</i></button>
+          <p class="form__note" data-i18n="form.note">Se abrirá tu app de correo con la solicitud lista para enviar.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═════════ FOOTER ═════════ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <span>© <span data-year></span> SURVIVAL MODE — KOOK LABEL</span>
+        <a class="link-arrow" data-link="pressPack" download><span data-i18n="footer.press">Pack de prensa (ZIP)</span> ↓</a>
+        <a href="#top" class="link-arrow" data-to-top><span data-i18n="footer.top">Volver arriba</span> ↑</a>
+      </div>
+      <div class="footer__logo"><span class="logo-svg" data-logo></span></div>
+    </div>
+  </footer>
+
+  <!-- lightbox -->
+  <div class="lightbox" data-lightbox aria-hidden="true" role="dialog" aria-modal="true">
+    <button class="lightbox__close" type="button" data-lb-close aria-label="Cerrar">✕</button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" data-lb-prev aria-label="Anterior">←</button>
+    <figure class="lightbox__fig"><img alt="" data-lb-img /><figcaption><span data-lb-count></span><a data-lb-download download><span data-i18n="gallery.hires">Descargar</span> ↓</a></figcaption></figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" data-lb-next aria-label="Siguiente">→</button>
+  </div>
+
+  <div class="toast" data-toast></div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
